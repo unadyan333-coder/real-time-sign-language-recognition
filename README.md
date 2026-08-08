@@ -88,8 +88,6 @@ The dataset is collected directly from the webcam using MediaPipe hand landmarks
 
 During collection, the system extracts the 21 hand landmarks and stores their coordinates as labeled samples in a CSV dataset.
 
-![Data Collection](assets/data_collection.jpg)
-
 ## Hand Landmark Detection
 
 MediaPipe tracks **21 landmarks** on the detected hand. These landmarks provide the numerical features used by the machine learning model.
