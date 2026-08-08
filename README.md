@@ -80,8 +80,6 @@ This allows the system to recognize trained gestures directly from the webcam in
 
 The system recognizes trained hand gestures in real time and displays the predicted gesture as live text on the camera feed.
 
-[Real-Time Gesture Recognition](assets/demo.gif)
-
 ## Data Collection
 
 The dataset is collected directly from the webcam using MediaPipe hand landmarks. Each captured sample is labeled according to its corresponding gesture.
@@ -92,15 +90,12 @@ During collection, the system extracts the 21 hand landmarks and stores their co
 
 MediaPipe tracks **21 landmarks** on the detected hand. These landmarks provide the numerical features used by the machine learning model.
 
-![Hand Landmarks](assets/hand_landmarks.jpg)
 
 ## Model Training Results
 
 The Random Forest classifier was trained using the collected hand-landmark dataset and evaluated on a held-out test set.
 
 The training process achieved a test accuracy of **XX%**.
-
-![Model Training Results](assets/training_result.jpg)
 
 
 
