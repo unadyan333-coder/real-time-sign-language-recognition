@@ -4,6 +4,13 @@ A real-time computer vision system that recognizes predefined hand gestures usin
 
 The system uses **MediaPipe** for hand landmark detection and a **Random Forest** machine learning classifier trained on a custom hand-gesture dataset.
 
+#Project Version Note
+
+This repository contains an early implementation of the Sign Language Recognition System.
+The project was subsequently enhanced to support two-hand recognition and Text-to-Speech (TTS) output. These improvements are demonstrated in the final project video, but the updated source code has not yet been published in this repository.
+
+Note: The Future Improvements section refers to the original development roadmap.
+
 ## Project Overview
 
 This project implements a complete pipeline for real-time hand gesture recognition:
